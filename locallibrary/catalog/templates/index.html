@@ -15,6 +15,9 @@
     <li><strong>Books with "History" in title"</strong> {{ num_book_words }}</li>
     <li><strong>Genres with "History" in name"</strong> {{ num_genre_words }}</li>
   </ul>
+
+  
+<p>You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.</p>
 {% endblock %}
 
 {% load static %}
